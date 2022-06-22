@@ -3,11 +3,11 @@ package practice.com;
 public class ClassTwo {
 
 	public static void main(String[] args) {
-		int a = 20;
-		int b = 50;
-		int sum = a+b;
+		ClassOne one = new ClassOne();
 		
-		System.out.println(sum);
+
+		one.sumTwoNumber(45,45);
+
 
 	}
 
